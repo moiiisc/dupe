@@ -17,5 +17,5 @@ end
 if lib.Network.Invoke("Invite To Bank", mybanks[1]['BUID'], Log) then
     lib.Message.New("Dupe Proccesing! (make sure your bank have pet or gems for duping!)");
 else
-    lib.Message.New("Wait 30 Minutes to proccess your duped Pet Or Gems");
+    lib.Message.New("Wait 10 Minutes to proccess your duped Pet Or Gems");
 end;
